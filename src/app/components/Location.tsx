@@ -26,14 +26,23 @@ export function Location() {
               <div className="pt-4 space-y-8">
                 <div>
                   <h4 className="text-foreground font-medium mb-2 tracking-wide uppercase text-sm">{t(l.addressLabel, lang)}</h4>
-                  <p>{t(l.address1, lang)}</p>
-                  <p>{t(l.address2, lang)}</p>
+                  <a 
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t(l.address1, lang))}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block hover:opacity-60 transition-opacity"
+                  >
+                    {t(l.address1, lang) && <p>{t(l.address1, lang)}</p>}
+                    {t(l.address2, lang) && <p>{t(l.address2, lang)}</p>}
+                  </a>
                 </div>
-                <div>
-                  <h4 className="text-foreground font-medium mb-2 tracking-wide uppercase text-sm">{t(l.contactLabel, lang)}</h4>
-                  <p className="mb-4">hello@naminails.com</p>
-                  <h4 className="text-foreground font-medium mb-2 tracking-wide uppercase text-sm">Phone Number</h4>
-                  <p>03-1234-5678</p>
+              <div>
+                <h4 className="text-foreground font-medium mb-2 tracking-wide uppercase text-sm">{t(l.contactLabel, lang)}</h4>
+                <p className="mb-4">hello@naminails.com</p>
+                <h4 className="text-foreground font-medium mb-2 tracking-wide uppercase text-sm">Phone Number</h4>
+                <a href="tel:0312345678" className="hover:opacity-60 transition-opacity">
+                  03-1234-5678
+                </a>
                 </div>
                 <div>
                   <h4 className="text-foreground font-medium mb-2 tracking-wide uppercase text-sm">{t(l.hoursLabel, lang)}</h4>

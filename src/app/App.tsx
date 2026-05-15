@@ -32,24 +32,40 @@ function AppContent() {
               <div className="text-3xl mb-6 font-bold tracking-tighter">
                 NAMI NAILS
               </div>
-              <p className="text-muted-foreground leading-relaxed mb-6">
-                {t(f.tagline, lang)}
-              </p>
-              <a href="https://instagram.com/naminails" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-foreground hover:opacity-60 transition-opacity">
-                <Instagram size={24} />
-                <span className="text-sm font-medium tracking-wide">Follow us on Instagram</span>
-              </a>
+              <div className="flex flex-col gap-6">
+                <a href="https://instagram.com/naminails" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 text-foreground hover:opacity-60 transition-opacity">
+                  <Instagram size={24} />
+                  <span className="text-sm font-medium tracking-wide">Follow us on Instagram</span>
+                </a>
+                <a 
+                  href="https://beauty.hotpepper.jp/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-block bg-primary text-primary-foreground px-8 py-3 text-sm tracking-wide rounded-full hover:opacity-90 transition-opacity text-center w-fit"
+                >
+                  {t(translations.footer.bookNow, lang)}
+                </a>
+              </div>
             </div>
 
             <div className="md:col-span-4">
               <h4 className="mb-6 tracking-wide text-sm">ADDRESS</h4>
               <div className="space-y-3 text-muted-foreground">
-                <p>{t(translations.location.address1, lang)}</p>
-                <p className="mb-4">{t(translations.location.address2, lang)}</p>
+                <a 
+                  href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(t(translations.location.address1, lang))}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block hover:opacity-60 transition-opacity"
+                >
+                  {t(translations.location.address1, lang) && <p>{t(translations.location.address1, lang)}</p>}
+                  {t(translations.location.address2, lang) && <p className="mb-4">{t(translations.location.address2, lang)}</p>}
+                </a>
                 <h4 className="tracking-wide text-sm font-medium text-foreground pt-2">CONTACT</h4>
                 <p className="mb-4">hello@naminails.com</p>
                 <h4 className="tracking-wide text-sm font-medium text-foreground pt-2">Phone Number</h4>
-                <p>03-1234-5678</p>
+                <a href="tel:0312345678" className="hover:opacity-60 transition-opacity">
+                  03-1234-5678
+                </a>
               </div>
             </div>
 

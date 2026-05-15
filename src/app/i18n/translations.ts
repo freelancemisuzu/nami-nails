@@ -96,27 +96,35 @@ export const translations = {
     items: [
       {
         quote: {
-          en: "The attention to detail and personalized approach transformed my skin completely. I've never felt more confident.",
-          ja: "細部へのこだわりとパーソナルな対応で、すっかり自信を持てるようになりました。",
+          en: "It was my first time visiting, and I'm extremely satisfied with the result! The consultation was very thorough, and they finished my nails exactly as I requested. The salon's atmosphere is cozy, and I'll definitely be back.",
+          ja: "初めて伺いましたが、大満足の仕上がりです！カウンセリングも丁寧で、こちらの要望通りにとても素敵に仕上げてくださいました。サロンの雰囲気も居心地が良く、ぜひまたお願いしたいです。",
         },
         author: "Sarah M.",
         role: { en: "CLIENT SINCE 2022", ja: "2022年からのお客様" },
       },
       {
         quote: {
-          en: "NAMI offers an experience that goes beyond nails—it's a ritual I look forward to every month.",
-          ja: "NAMI NAILSはネイルを超えた体験です。毎月楽しみにしているひとときです。",
+          en: "The care and application are exceptionally careful, making my nails look incredibly beautiful! Their sense of style is outstanding, and looking at my hands always lifts my mood. The nails last a long time, so I can trust them completely.",
+          ja: "とにかくケアと施術が丁寧で、爪の形がすごく綺麗に見えます！センスも抜群で、手元を見るたびに気分が上がります。モチも良いので安心してお任せできます。",
         },
         author: "Jessica L.",
         role: { en: "CLIENT SINCE 2020", ja: "2020年からのお客様" },
       },
       {
         quote: {
-          en: "The combination of clinical expertise and luxurious care is unmatched. My nails have never looked better.",
-          ja: "専門的な技術とラグジュアリーなケアの融合は他にはありません。これほど美しいネイルは初めてです。",
+          en: "With their professional suggestions, I was able to find a design that perfectly suits me. It's a salon where you can feel at ease. I will definitely visit again.",
+          ja: "プロならではの提案力で、自分に似合うデザインが見つかる安心のサロンです。また伺います。",
         },
         author: "Miranda K.",
         role: { en: "CLIENT SINCE 2021", ja: "2021年からのお客様" },
+      },
+      {
+        quote: {
+          en: "To put it simply, this is the best salon I've ever been to. The speed, meticulousness, and interpretation of design—everything was perfect. I'm definitely a regular now!",
+          ja: "結論から言うと、今まで行ったサロンの中で一番良かったです。施術のスピード、丁寧さ、デザインの解釈、どれをとってもパーフェクト。リピート確定です！",
+        },
+        author: "Elena S.",
+        role: { en: "CLIENT SINCE 2023", ja: "2023年からのお客様" },
       },
     ],
   },
@@ -196,26 +204,23 @@ export const translations = {
       ja: "",
     },
     addressLabel: { en: "Address", ja: "Address" },
-    address1: { en: "1-2-3 Minami-Aoyama", ja: "東京都港区南青山1-2-3" },
-    address2: { en: "Minato-ku, Tokyo 107-0062", ja: "107-0062" },
+    address1: { en: "1-2-3 Minami-Aoyama", ja: "〒107-0062  東京都港区南青山1-2-3" },
+    address2: { en: "Minato-ku, Tokyo 107-0062", ja: "" },
     contactLabel: { en: "Contact", ja: "Contact" },
     hoursLabel: { en: "Opening Hours", ja: "Opening Hours" },
-    weekdays: { en: "Monday - Friday: 9AM - 7PM", ja: "月曜〜金曜：9:00 - 19:00" },
-    saturday: { en: "Saturday: 10AM - 6PM", ja: "土曜：10:00 - 18:00" },
-    sunday: { en: "Sunday: Closed", ja: "日曜：定休日" },
+    weekdays: { en: "Mon. - Fri. 11:00 - 20:00", ja: "Mon.-Fri. 11:00-20:00" },
+    saturday: { en: "Saturday: 11:00 - 20:00", ja: "Sat. 11:00-20:00" },
+    sunday: { en: "Sun. - Holidays: 11:00 - 17:00", ja: "Sun.-Holidays 11:00-17:00" },
   },
 
   // Footer
   footer: {
-    tagline: {
-      en: "Elevated beauty through intentional care and clinical expertise.",
-      ja: "こだわりのケアと専門技術による、上質な美しさ。",
-    },
+    bookNow: { en: "Online Booking", ja: "オンラインで予約" },
     contact: { en: "CONTACT", ja: "CONTACT" },
     hours: { en: "HOURS", ja: "HOURS" },
-    weekdays: { en: "Monday - Friday: 9AM - 7PM", ja: "月曜〜金曜：9:00 - 19:00" },
-    saturday: { en: "Saturday: 10AM - 6PM", ja: "土曜：10:00 - 18:00" },
-    sunday: { en: "Sunday: 11AM - 5PM", ja: "日曜：11:00 - 17:00" },
+    weekdays: { en: "Mon. - Fri. 11:00 - 20:00", ja: "Mon.-Fri. 11:00-20:00" },
+    saturday: { en: "Saturday: 11:00 - 20:00", ja: "Sat. 11:00-20:00" },
+    sunday: { en: "Sun. - Holidays: 11:00 - 17:00", ja: "Sun.-Holidays 11:00-17:00" },
     copyright: {
       en: "© 2026 NAMI NAILS. All rights reserved.",
       ja: "© 2026 NAMI NAILS. All rights reserved.",

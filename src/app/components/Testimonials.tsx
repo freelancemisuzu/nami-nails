@@ -14,10 +14,10 @@ export function Testimonials() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8">
           {te.items.map((testimonial, index) => (
             <div key={index} className="bg-[#E5E5E3] rounded-[2rem] p-4 md:p-8 space-y-3">
-              <p className="text-sm md:text-xl leading-relaxed italic">
+              <p className="text-xs md:text-sm leading-relaxed italic">
                 "{t(testimonial.quote, lang)}"
               </p>
               <div className="pt-4 border-t border-border">
