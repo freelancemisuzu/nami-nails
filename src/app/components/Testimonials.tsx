@@ -27,6 +27,17 @@ export function Testimonials() {
             </div>
           ))}
         </div>
+
+        <div className="mt-12 flex justify-center">
+          <a 
+            href="https://beauty.hotpepper.jp/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-block border border-[#A71C1C] text-[#A71C1C] px-8 py-3 text-sm tracking-wide rounded-full hover:bg-[#A71C1C] hover:text-white transition-colors text-center"
+          >
+            {te.seeAllReviews ? t(te.seeAllReviews, lang) : "すべてのレビューを見る"}
+          </a>
+        </div>
       </div>
     </section>
   );

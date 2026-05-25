@@ -18,8 +18,8 @@ export function Services() {
       id="services" 
       className="py-20 md:py-32 px-6 md:px-12"
       style={{
-        backgroundColor: "#FFDBFE",
-        backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23F5C4CA' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E")`
+        backgroundColor: "#FFFCD5",
+        backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCAD39' stroke-width='0' stroke-opacity='0.28'%3E%3Crect fill='%23D1F0F5' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E")`
       }}
     >
       <div className="max-w-[1400px] mx-auto">

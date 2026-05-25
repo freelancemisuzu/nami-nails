@@ -8,7 +8,7 @@ export function About() {
   const a = translations.about;
 
   return (
-    <section id="about" className="py-20 md:py-32 px-6 md:px-12 bg-[#F8E8F2]">
+    <section id="about" className="py-20 md:py-32 px-6 md:px-12 bg-[#F8E8F2] text-[#A71C1C]">
       <div className="max-w-[1400px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-20 items-center">
           <div className="md:col-span-5">
@@ -25,10 +25,10 @@ export function About() {
             <h2 className="text-4xl md:text-5xl font-bold tracking-tighter">
               About our salon
             </h2>
-            <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-2xl">
-              <p>{t(a.paragraph1, lang)}</p>
-              <p>{t(a.paragraph2, lang)}</p>
-              <p>{t(a.paragraph3, lang)}</p>
+            <div className="space-y-6 text-lg leading-relaxed max-w-2xl opacity-90 whitespace-pre-wrap">
+              {t(a.paragraph1, lang) && <p>{t(a.paragraph1, lang)}</p>}
+              {t(a.paragraph2, lang) && <p>{t(a.paragraph2, lang)}</p>}
+              {t(a.paragraph3, lang) && <p>{t(a.paragraph3, lang)}</p>}
               {t(a.paragraph4, lang) && <p>{t(a.paragraph4, lang)}</p>}
               {t(a.paragraph5, lang) && <p>{t(a.paragraph5, lang)}</p>}
             </div>
@@ -45,20 +45,7 @@ export function About() {
               </a>
             </div>
 
-            <div className="grid grid-cols-2 gap-8 pt-8">
-              <div>
-                <div className="text-5xl mb-3 font-bold tracking-tighter">
-                  8+
-                </div>
-                <div className="text-sm tracking-wide text-muted-foreground">{t(a.yearsLabel, lang)}</div>
-              </div>
-              <div>
-                <div className="text-5xl mb-3 font-bold tracking-tighter">
-                  5K+
-                </div>
-                <div className="text-sm tracking-wide text-muted-foreground">{t(a.clientsLabel, lang)}</div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>

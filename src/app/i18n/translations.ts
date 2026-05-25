@@ -67,24 +67,24 @@ export const translations = {
   about: {
     title: { en: "About our salon", ja: "サロンについて" },
     paragraph1: {
-      en: "NAMI NAILS is a sanctuary for those who appreciate the art of minimalism and the beauty of precision. Our studio is dedicated to providing an elevated nail care experience that combines modern techniques with a tranquil, refined atmosphere.",
-      ja: "Aura Nailsは、上質なネイルケアを求める方々のための特別な空間です。ミニマルで落ち着いた環境の中、あなただけのネイルアートをご提案します。",
+      en: "Aura Nails is a private nail salon by appointment only.",
+      ja: "Aura Nailsは完全予約制のプライベートネイルサロンです。",
     },
     paragraph2: {
-      en: "We believe that nails are a canvas for self-expression, and our artistry is rooted in the philosophy of \"intentional beauty\"—where every stroke and detail is carefully considered to enhance your natural elegance.",
-      ja: "すべてのご来店が、くつろぎの体験になるよう心がけています。",
+      en: "We value the time we spend with each client and strive to create a relaxing space.\nFrom simple nails to trendy designs, we will propose a style that suits your lifestyle and preferences.",
+      ja: "お客様一人ひとりとの時間を大切にし、落ち着いて過ごせる空間づくりを心がけています。\nシンプルネイルからトレンドデザインまで、ライフスタイルやお好みに合わせてご提案させていただきます。",
     },
     paragraph3: {
-      en: "Founded on the principles of quality, hygiene, and bespoke service, NAMI NAILS offers a curated selection of treatments designed to leave you feeling restored and your hands looking impeccable.",
-      ja: "お仕事や家事、どんなシーンでもあなたを輝かせるネイルを、プライベートな落ち着いた空間で丁寧に仕上げます。",
+      en: "With careful counseling and application, we deliver nails that will lift your spirits every time you look at your fingertips.\nOur salon is a cozy, welcoming place where even first-timers can relax.",
+      ja: "丁寧なカウンセリングと施術で、毎日ふと指先を見た時に気分が上がるようなネイルをお届けします。\nネイルが初めての方にもリラックスしてお過ごしいただける、通いやすいアットホームなサロンです♪",
     },
     paragraph4: {
-      en: "",
-      ja: "歴史ある街の、小さな隠れ家サロン。",
+      en: "Reservations can be made online or via Instagram DM.\nPlease feel free to contact us.",
+      ja: "予約はオンラインとInstagramのDMから承っております。\nお気軽にお問い合わせください。",
     },
     paragraph5: {
       en: "",
-      ja: "自分を整える、特別なひとときをお過ごしください。",
+      ja: "",
     },
     yearsLabel: { en: "YEARS OF EXCELLENCE", ja: "年の実績" },
     clientsLabel: { en: "CLIENTS SERVED", ja: "施術実績" },
@@ -93,6 +93,7 @@ export const translations = {
   // Testimonials
   testimonials: {
     title: { en: "Client Voices", ja: "Client Voices" },
+    seeAllReviews: { en: "See all reviews", ja: "すべてのレビューを見る" },
     items: [
       {
         quote: {
